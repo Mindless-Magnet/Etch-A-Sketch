@@ -1,5 +1,6 @@
 const canvasdiv = document.querySelector('.canvas');
 const n = document.querySelector('.thickness');
+const color = document.querySelector('.color-picker')
 
 var isDrawing = false;
 
@@ -67,5 +68,5 @@ n.addEventListener('input', function () {
 });
 
 function draw(block) {
-  block.style.backgroundColor = "white";
+  block.style.backgroundColor = color.value;
 }

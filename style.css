@@ -9,7 +9,9 @@ body, html{
 .header{
     margin-bottom: auto;
     text-align: center;
-    background-color: aliceblue;
+    font-family: fantasy;
+    font-size: 50px;
+    background-color: gold;
     }
 
 .container{
@@ -39,7 +41,7 @@ body, html{
     flex-direction: column;
     flex:1;
     margin: 20px;
-    border: 5px solid yellow;
+    border: 10px solid gold;
     }
 
 .row{
@@ -56,5 +58,8 @@ body, html{
 .footer{
     margin-top: auto;
     text-align: center;
-    background-color: aliceblue;
+    background-color: gold;
+    font-family: fantasy;
+    font-size: 20px;
+    padding: 8px;
     }
